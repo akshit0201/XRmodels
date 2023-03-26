@@ -1,7 +1,7 @@
 import { LoadingManager, Mesh, MeshBasicMaterial, MeshPhongMaterial, HemisphereLight, RingBufferGeometry, PerspectiveCamera, TextureLoader, Scene, SphereGeometry, WebGLRenderer, Object3D, XRHitTestSource } from "/build/three.module.js";
 import { OrbitControls } from "/jsm/controls/OrbitControls";
 import Stats from "/jsm/libs/stats.module";
-import { ARButton } from '/jsm/webxr/ARbutton';
+import { ARButton } from '/jsm/webxr/ARButton';
 import { GLTFLoader } from "/jsm/loaders/GLTFLoader";
 import { RGBELoader } from "/jsm/loaders/RGBELoader";
 
