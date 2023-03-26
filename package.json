@@ -1,9 +1,8 @@
 {
   "name": "webxr-workshop",
-  "version": "1.0.0",
-  "author": "Ayşegül Yönet",
-  "description": "FrontEndMasters - 3D on the Web & WebXR Course code samples",
-  "github": "https://github.com/https://github.com/Yonet/WebXRWorkshop",
+  "version": "1.1.0",
+  "author": "Akshit C",
+  "description": "App for showing 3D viz",
   "scripts": {
     "dev": "concurrently -k \"tsc -p ./src/server -w\" \"tsc -p ./src/client -w\" \"nodemon ./dist/server/server.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
