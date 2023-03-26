@@ -2,7 +2,7 @@ import express from "express";
 import path from "path";
 import http from "http";
 
-const port: number = 3000;
+const port: any = process.env.PORT || 3000;
 
 class App {
 	private server: http.Server;
